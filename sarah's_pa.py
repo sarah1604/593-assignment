@@ -13,7 +13,7 @@ import threading
 engine = pyttsx3.init()
 
 # Set the Google Generative AI API key
-genai.configure(api_key="AIzaSyDxwWdelWz61PNzKFCsOYLXWvxk0IiCJOA")
+genai.configure(api_key=" ")
 
 # Initialize the Gemini model
 model = genai.GenerativeModel('gemini-1.5-flash')
